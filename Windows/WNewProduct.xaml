@@ -1,0 +1,17 @@
+﻿<Window x:Class="TaskEF.Windows.WNewProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskEF.Windows"
+        mc:Ignorable="d"
+        Title="WNewProduct" Height="450" Width="400">
+    <Grid>
+        <Button x:Name="btn" Content="Add" HorizontalAlignment="Left" Margin="142,210,0,0" VerticalAlignment="Top" Click="btn_Click"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="142,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="product" HorizontalAlignment="Left" Margin="142,97,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="price" HorizontalAlignment="Left" Margin="142,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="price" HorizontalAlignment="Left" Margin="142,151,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

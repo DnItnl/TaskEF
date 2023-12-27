@@ -1,0 +1,24 @@
+﻿<Window x:Class="TaskEF.Windows.WNewCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskEF.Windows"
+        mc:Ignorable="d"
+        Title="WNewCustomer" Height="450" Width="400">
+    <Grid>
+        <TextBox x:Name="fname" HorizontalAlignment="Left" Margin="138,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="First name" HorizontalAlignment="Left" Margin="138,51,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lname" HorizontalAlignment="Left" Margin="138,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Last name" HorizontalAlignment="Left" Margin="138,105,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Add" Content="Add" HorizontalAlignment="Left" Margin="144,352,0,0" VerticalAlignment="Top" Click="btn_Click" RenderTransformOrigin="0.778,2.023"/>
+        <TextBox x:Name="Email" HorizontalAlignment="Left" Margin="138,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="138,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Phone" HorizontalAlignment="Left" Margin="138,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="138,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Address" HorizontalAlignment="Center" Margin="0,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="140,266,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="vip" Content="vip" HorizontalAlignment="Left" Margin="140,315,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
